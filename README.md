@@ -18,8 +18,8 @@ This is a modern Preact web app featuring:
 ### 1. Clone the repository
 
 ```bash
-git clone 
-cd vtuber-app
+git clone https://github.com/IzziVanSatoru/my-Vtubeer-App.git
+cd my-Vtubeer-App.git
 ```
 
 ### 2. Install dependencies
