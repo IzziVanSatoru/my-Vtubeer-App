@@ -1,5 +1,5 @@
 import { h } from 'preact';
-import FanBoard from './components/FanBoard';
+import Fanboard from './components/Fanboard';
 import Schedule from './components/Schedule';
 import SupporterWall from './components/SupporterWall';
 import TodoList from './components/TodoList';
