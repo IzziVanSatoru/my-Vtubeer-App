@@ -1,5 +1,6 @@
+// src/App.jsx
 import { h } from 'preact';
-import Fanboard from './components/Fanboard';
+import FanBoard from './components/FanBoard';
 import Schedule from './components/Schedule';
 import SupporterWall from './components/SupporterWall';
 import TodoList from './components/TodoList';
@@ -9,18 +10,18 @@ export default function App() {
     <div class="container">
       <header>
         <h1>🌊🐱 Vtuber OceanBoard</h1>
-        <p>Let the gray cat tide carry your message.</p>
+        <p>Let the gray cat tide carry your message to the ocean of love.</p>
       </header>
 
-      <div class="grid">
+      <main class="grid">
         <div class="grid-item large"><Schedule /></div>
-        <div class="grid-item small"><Fanboard /></div>
+        <div class="grid-item small"><FanBoard /></div>
         <div class="grid-item small"><SupporterWall /></div>
         <div class="grid-item full"><TodoList /></div>
-      </div>
+      </main>
 
       <footer>
-        <p>© 2025 OceanBoard. Built with 🐾 + 💙</p>
+        <p>© 2025 OceanBoard — Built with 💙 by the tide and the cat.</p>
       </footer>
 
       <style scoped>{`
